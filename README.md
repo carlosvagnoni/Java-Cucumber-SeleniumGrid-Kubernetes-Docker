@@ -1,9 +1,9 @@
-# Automated Web Testing with Java, Selenium, and Cucumber or Parallel Execution with Selenium Grid and Docker
+# Automated Web Testing with Java, Selenium, and Cucumber for Parallel Execution with Selenium Grid and Docker
 ![Static Badge](https://img.shields.io/badge/Java-logo?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=rgb(229%2C%2031%2C%2036)&color=rgb(22%2C%2027%2C%2034))
 ![Static Badge](https://img.shields.io/badge/Selenium-logo?style=for-the-badge&logo=selenium&logoColor=white&labelColor=rgb(0%2C%20174%2C%200)&color=rgb(22%2C%2027%2C%2034))
 ![Static Badge](https://img.shields.io/badge/Cucumber-logo?style=for-the-badge&logo=cucumber&logoColor=black&labelColor=rgb(35%2C%20217%2C%20108)&color=rgb(22%2C%2027%2C%2034))
 ![Static Badge](https://img.shields.io/badge/Selenium%20Grid-logo?style=for-the-badge&logo=selenium&logoColor=white&labelColor=rgb(0%2C%20174%2C%200)&color=rgb(22%2C%2027%2C%2034))
-![Static Badge](https://img.shields.io/badge/docker-logo?style=for-the-badge&logo=docker&logoColor=white&labelColor=rgb(22%2C%2027%2C%2034))
+![Static Badge](https://img.shields.io/badge/docker-logo?style=for-the-badge&logo=docker&logoColor=white&labelColor=rgb(28%2C%20140%2C%20237)&color=rgb(22%2C%2027%2C%2034))
 
 This project is an enhanced version of the [original automated web testing framework](https://github.com/carlosvagnoni/JavaSeleniumCucumber), now adapted for parallel execution across various browsers using Selenium Grid and Docker. It maintains the core features of automated testing with Java, Selenium, and Cucumber, following Behavior-Driven Development (BDD) best practices and implementing the Page Object Model design pattern.
 
@@ -156,7 +156,7 @@ Run all the tests:
 mvn test
 ```
 
-Open report:
+Open reports:
 
 ```bash
 start "" "target\reports\demoblaze-chrome.html"
