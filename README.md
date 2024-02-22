@@ -6,11 +6,11 @@
 ![Static Badge](https://img.shields.io/badge/kubernetes-logo?style=for-the-badge&logo=kubernetes&logoColor=rgb(49%2C%20108%2C%20230)&labelColor=white&color=rgb(22%2C%2027%2C%2034))
 ![Static Badge](https://img.shields.io/badge/docker-logo?style=for-the-badge&logo=docker&logoColor=white&labelColor=rgb(28%2C%20140%2C%20237)&color=rgb(22%2C%2027%2C%2034))
 
-This enhanced web testing framework builds upon the [original automated web testing framework](https://github.com/carlosvagnoni/JavaSeleniumCucumber), now refined to seamlessly execute in containers or Kubernetes for parallel testing across various browsers using Selenium Grid.
+This enhanced web testing framework builds upon the [original automated web testing framework](https://github.com/carlosvagnoni/JavaSeleniumCucumber), now refined to seamlessly execute in containers or Kubernetes for parallel testing across multiple machines and browsers using Selenium Grid.
 
 Retaining the core functionalities of automated testing with Java, Selenium, and Cucumber, this framework adheres to Behavior-Driven Development (BDD) practices and implements the Page Object Model design pattern.
 
-The adaptation optimizes test execution by leveraging the capabilities of Selenium Grid Hub and associated nodes for diverse browsers (Chrome, Edge, and Firefox), enabling remote WebDriver test execution.
+The adaptation optimizes test execution by leveraging the capabilities of Selenium Grid Hub and associated nodes. This allows tests to run on diverse browsers (Chrome, Edge, Firefox) across multiple machines simultaneously, enabling remote WebDriver test execution.
 
 To support both containerized and Kubernetes deployments, the infrastructure incorporates the following Docker images:
 
